@@ -23,4 +23,6 @@ This project is based on web scapping of news channel to get news of particular 
  
  in cmd of project.
  
- 
+ and to start project run flask run in cmd
+
+and open http://127.0.0.1:5000/ in browser.
