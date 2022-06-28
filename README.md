@@ -2,7 +2,9 @@
 a web scrapping project using flask and beautifulSoup4.
 
 This project is based on web scapping of news channel to get news of particular topic.
- here are some screenshoots
+ here are some screenshoots.
+ 
+ 
  ![scrShoot](/static/image/sc1.png)
  
  ![scrShoot](/static/image/sc2.png)
