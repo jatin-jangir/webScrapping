@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url('../static/image/wallpaperflare.com_wallpaper.jpg');
+background-attachment: fixed;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecNews Post</title>
+    <!--<link rel="stylesheet" href="{{url_for('static',filename='css//style.css')}}">-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+<body >
+    <div class="newsChannel" style="align-items: center ; align-content: center;">
+        <h1 class="header" style="font-size: xx-large; color: rgb(251, 250, 250);text-align:center;">Buisness Today</h1><br/><br/>
+    <h2 class="header" style="font-size: x-large; color: rgb(183, 241, 216); text-align:center;">tech News</h2>
+    <div class="bottom-1 m-auto relative" id="container" style="width:614px; height:700px;">
+       
+        <span class=" font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="Tech_News"
+            style="width: 550px; top: 10px; left: 30px; line-height: 2em;">
+            {{Tech_News|safe}}
+            <!-- These curly braces are a gateway for python variables and functions (via flask) to Front-end. This is done with the help of Jinja template engine.-->
+        </span>
+    </div>
+    <h2 class="header" style=" font-size: x-large; color: white;text-align:center;">Buisness News</h2><br/><br/>
+    <div class="bottom-1 m-auto relative" id="container" style="width:614px; height:700px;">
+       
+        <span class=" font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="Buisness_News"
+            style="width: 550px; top: 10px; left: 30px; line-height: 2em;">
+            {{Buisness_News|safe}}
+            <!-- These curly braces are a gateway for python variables and functions (via flask) to Front-end. This is done with the help of Jinja template engine.-->
+        </span>
+    </div>
+</div>
+<div class="newsChannel" style="align-items: center ; align-content: center;">
+<h1 class="header" style="font-size: xx-large; color: rgb(253, 253, 253);text-align:center;">Indianexpress</h1><br/><br/>
+<h2 class="header" style="font-size: x-large; color: rgb(183, 241, 216);text-align:center;">Political News</h2><br/><br/>
+<div class="bottom-1 m-auto relative" id="container" style="width:614px; height:700px;">
+   
+    <span class=" font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="Poli_News"
+        style="width: 550px; top: 10px; left: 30px; line-height: 2em;">
+        {{Poli_News|safe}}
+        <!-- These curly braces are a gateway for python variables and functions (via flask) to Front-end. This is done with the help of Jinja template engine.-->
+    </span>
+</div>
+<h2 class="header" style="font-size: x-large; color: white;text-align:center;">Sports News</h2>
+<div class="bottom-1 m-auto relative" id="container" style="width:614px; height:700px;">
+   
+    <span class=" font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="Sport_News"
+        style="width: 550px; top: 10px; left: 30px; line-height: 2em;">
+        {{Sport_News|safe}}
+        <!-- These curly braces are a gateway for python variables and functions (via flask) to Front-end. This is done with the help of Jinja template engine.-->
+    </span>
+</div>
+</div>
+    
+</body>
+
+
+</html>
